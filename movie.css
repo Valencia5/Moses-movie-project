@@ -1,0 +1,78 @@
+body {
+    background-color: red;
+}
+.heading {
+    background: red;
+    font-weight: bold;
+    color: blue;
+
+}
+
+#\#movie-club {
+    font-family: MyWebFont, sans-serif;
+    font-size: 60px;
+}
+
+.lead {
+    font-weight: bolder;
+}
+
+.label {
+    height: 0;
+}
+
+#container{
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    color: black;
+    background-color: red;
+}
+#posters {
+    height: 350px;
+}
+
+#film {
+    height: 100px;
+    width: 350px;
+}
+
+.card{
+    display: flex;
+    margin: 10px;
+    color: black;
+}
+
+#garbage :hover {
+    cursor: pointer;
+}
+
+#addForm {
+    /*background-color: white;*/
+    /*display: flex;*/
+    /*align-content: center;*/
+    padding-bottom: 8px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+body {
+    background: black;
+    /*overflow: hidden;*/
+}
+
+.centerBike {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 26px;
+    margin-left: -12px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
