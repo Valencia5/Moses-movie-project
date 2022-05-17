@@ -38,11 +38,11 @@ el for="edit-title-${movie.id}">Edit Movie Title</label>`;
                         htmlStr += `<label for="edit-rate-${movie.id}">Edit the Rating</label>`;
                         htmlStr += `<select id="edit-rate-${movie.id}" class="form-select" aria-label="Default select example">`;
                         htmlStr += `<option>Rate your title</option>`;
-                        htmlStr += `<option value="1">One</option>`;
-                        htmlStr += `<option value="2">Two</option>`;
-                        htmlStr += `<option value="3" selected="selected">Three</option>`;
-                        htmlStr += `<option value="4">Four</option>`;
-                        htmlStr += `<option value="5">Five</option>`;
+                        htmlStr += `<option value="1">One &#11088;!</option>`;
+                        htmlStr += `<option value="2">Two &#11088; &#11088;!</option>`;
+                        htmlStr += `<option value="3" selected="selected">Three &#11088;&#11088;&#11088;!</option>`;
+                        htmlStr += `<option value="4">Four &#11088;&#11088;&#11088;&#11088;!</option>`;
+                        htmlStr += `<option value="5">Five &#11088;&#11088;&#11088;&#11088;&#11088;!</option>`;
                         htmlStr += `</select>`;
                         htmlStr += `<button id="save-${movie.id}" data-value="${movie.id}" class="btn btn-primary">Save</button></form></div>`
                         $('#container').append(htmlStr)
